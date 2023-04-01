@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: white;
+}
+
+body{
+    background-color: rgba(89, 89, 237, 0.704);    
+    padding-top: 10px;
+    line-height: 2;
+}
+
+main{
+    padding-top: 10px;
+}
+
+section{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 20px;    
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+}
+
+section > p{
+    padding-left: 20px;
+}
+
+div#detectamos{
+    text-align: center;
+}
+
+div#imagem{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}

@@ -7,6 +7,7 @@
 
 header{
     color: white;
+    text-align: center;
 }
 
 body{
@@ -22,9 +23,9 @@ main{
 section{
     background-color: white;
     width: 500px;
-    height: 500px;
+    height: 460px;
     margin: auto;
-    padding-top: 20px;    
+    padding-top: 20px;
     border-radius: 15px;
     box-shadow: 2px 2px 10px black;
 }
@@ -37,11 +38,17 @@ div#detectamos{
     text-align: center;
 }
 
-div#imagem{
-    text-align: center;
-}
+.imagem-cortada {
+    display: block;
+    margin: auto;
+    width: 300px; /* Define a largura da sua imagem */
+    height: 300px; /* Define a altura da sua imagem */
+    clip-path: circle()
+  }
+  
 
 footer{
+    padding-top: 10px;
     text-align: center;
     color: white;
     font-weight: bolder;

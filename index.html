@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,30 @@
     <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Verificador de Idade</h1>
-    </header>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+    </div>
+    <div>
+        <label>Gênero:</label>
+        <input type="radio" id="masculino" name="genero" value="Masculino" required>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="genero" value="Feminino" required>
+        <label for="feminino">Feminino</label>
+    </div>
+    <div>
+        <button type="button" id="ver" onclick="verificar()">Verificar</button>
+    </div>
+    <div id="res"></div>
 
-    <main>
-        <section id="dados">
-            <p>Ano de Nascimento:   <input type="number" name="" id="idade">  </p>
-            <p>Sexo:                <input type="radio" name="genero" value="masculino"> Masculino 
-                                    <input type="radio" name="genero" value="feminino"> Feminino  </p>
-            <p>                     <input id="ver" type="submit" value="Verificar" onclick="verificar">    </p>
+    <script src="main.js"></script>
+    
+<footer>
+    &copyPonciWeb
+</footer>
 
-            <div id="res">
-                detectamos bla bla bla...
-            </div>
-
-            <div id="imagem">
-                <img src="imagens/pexels-myicahel-tamburini-1553783.jpg" alt="minha imagem" class="imagem-cortada">
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        &copyPonciWeb
-    </footer>
 </body>
+
 </html>

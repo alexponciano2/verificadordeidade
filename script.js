@@ -16,7 +16,7 @@ function verificar() {                                // cria a função de nome
 
 
     if (fsex[0].checked) {                            // confere se o primeiro radio buttom [0] está marcado
-      genero = 'Homem'                                // se sim, atribui "Homem" pra variável genero 
+      genero = 'Homem'                                // se sim, atribui "Homem" pra variável 'genero'
       if (idade >= 0 && idade < 3) {                  // confere se a idade está entre 0 e 3 anos
         img.setAttribute('src', 'bebeH.jpg')          // atribui imagem do bebe homem
       } else if (idade < 12) {                        // confere se a idade está entre 3 e 11 anos
@@ -30,7 +30,7 @@ function verificar() {                                // cria a função de nome
 
       }
     }else if(fsex[1].checked){                        // confere se o segundo radio buttom [1] está marcado 
-      genero = 'Mulher'                               // se sim, atribui "Mulher" pra variável genero
+      genero = 'Mulher'                               // se sim, atribui "Mulher" pra variável 'genero'
       if (idade >= 0 && idade < 3) {                  // confere se a idade está entre 0 e 3 anos
         img.setAttribute('src', 'bebeM.jpg')          // atribui imagem
       } else if (idade < 12) {                        // confere se a idade está entre 3 e 11 anos
